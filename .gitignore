@@ -1,0 +1,68 @@
+# OS metadata
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.python-version
+build/
+dist/
+*.egg-info/
+env/
+venv/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.cursor/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+
+# Logs / reports
+logs/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local data, caches, and generated outputs
+tmp/
+cache/
+.cache/
+data/
+outputs/
+results/
+artifacts/
+acl_anthology_data/
+ranked_papers.json
+ranked_papers.csv
+acl_candidates*.json
+acl_candidates*.csv
+
+# Archives / downloads
+*.zip
+*.tar
+*.gz
+
