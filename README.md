@@ -76,19 +76,13 @@ The public repo should include [`.env.example`](/Users/amir/Desktop/Literature r
 
 ## Query File
 
-[`keywords.txt`](/Users/amir/Desktop/Literature review/keywords.txt) contains a boolean expression. Example:
-
-```text
-("attribute*" OR "XAI" OR "explain*" OR "cite*" OR "highlight*" OR "quote*")
-AND
-("retrieval" OR "augment*" OR "context" OR "RAG")
-```
+[`keywords.txt`]contains a boolean expression.
 
 Use parentheses when mixing `AND` and `OR`. The parser treats `AND` with higher precedence if grouping is omitted.
 
 ## Prompt File
 
-[`prompt.txt`](/Users/amir/Desktop/Literature review/prompt.txt) is a template used to score each paper. The script injects:
+[`prompt.txt`]is a template used to score each paper. The script injects:
 
 - `{title}`
 - `{abstract}`
@@ -207,7 +201,7 @@ This repository is intended to be publishable without leaking local secrets or m
 - inspect prompt and keyword files for unpublished project details
 - keep output files under an ignored directory such as `outputs/`
 
-The current ignore policy is defined in [`.gitignore`](/Users/amir/Desktop/Literature review/.gitignore).
+The current ignore policy is defined in [`.gitignore`].
 
 ## Notes
 
